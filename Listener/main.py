@@ -12,7 +12,7 @@ def DumpsSettings():
 	file_dump = []
 	for kategori in list_kategori:
 		isi = cmd(f"su -c settings list {kategori}")
-		Tulis(f"./.cache/{kategori}.txt", isi )
+		Tulis(f"./cache/{kategori}.txt", isi )
 		file_dump.append(f"./cache/{kategori}.txt")
 	return file_dump
 	
