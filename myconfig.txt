@@ -1,0 +1,18 @@
+system long_press_back_key close_app
+global development_settings_enabled 1
+system double_click_power_key turn_on_torch
+system long_press_home_key turn_on_torch
+secure navigation_mode 0
+global force_fsg_nav_bar 0
+global animator_duration_scale 0.5
+
+system miui_home_screen_cells_size 5x9
+system com.miui.home.preferences.launcher_slideup_gesture no_action
+system com.miui.home.preferences.launcher_pulldown_gesture=notification_bar
+system miui_recents_show_mem_info 1
+
+system status_bar_show_network_speed 1
+system open_personal_assistant 1
+global force_resizable_activities 1
+global enable_freeform_support 1
+secure quick_reply_enable 1
