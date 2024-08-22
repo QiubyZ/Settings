@@ -13,7 +13,7 @@ def DumpsSettings():
 	for kategori in list_kategori:
 		isi = cmd(f"su -c settings list {kategori}")
 		Tulis(f"./.cache/{kategori}.txt", isi )
-		file_dump.append(f"./.cache/{kategori}.txt")
+		file_dump.append(f"./cache/{kategori}.txt")
 	return file_dump
 	
 def Bacafile(path) :
@@ -23,7 +23,7 @@ def Bacafile(path) :
 def ListeningData():
 	DumpsSettings()
 	for kategori in list_kategori:
-		berkas_dump = Bacafile(f"./.cache/{kategori}.txt")
+		berkas_dump = Bacafile(f"./cache/{kategori}.txt")
 		berkas_asli = cmd(f"su -c settings list {kategori}")
 		for dumpsNo, dumpsIsi in enumerate(berkas_dump.splitlines()):
 			    for asliNo, asliIsi in enumerate(berkas_asli.splitlines()):
