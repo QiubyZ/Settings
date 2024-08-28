@@ -1,4 +1,4 @@
-## SetListenner
+# SetListenner
 Adalah script untuk melihat perubahan nilai pada package com.android.setting, tujuan script ini dibuat untuk melacak keys dan value yang digunakan untuk pengesetan nilai pada CLI "cmd settings" | "settings" pada Android.
 
 ## Penggunaan
@@ -8,11 +8,11 @@ Cukup jalankan script ini dalam mode root dan minimize jendela terminal anda lal
 
 
 
-## CLI Settings Android
+# CLI Settings Android
 
-Ini adalah CLI untuk mengkonfigurasi pengaturan di dalam Android.
+CLI ```cmd settings``` | ```settings``` adalah CLI untuk mengkonfigurasi pengaturan di dalam Android.
 
-### Manfaat
+## Manfaat
 
 - **Otomatisasi Pengaturan:** Anda dapat membuat script otomatis untuk menyetel pengaturan yang sudah diketahui keys dan nilainya, kemudian menerapkannya ke ROM lain (ROM baru).
 - **Backup dan Restore:** Anda dapat membackup konfigurasi file yang telah diatur dan menerapkannya ke ROM lain.
@@ -117,7 +117,7 @@ Berikut ini adalah beberapa contoh pengaturan dalam kategori `system` (Settings 
 
 * **Pengujian:** Redmi note 9 pro Android 14 HyperOs.
 * **Akses:** Dibutuhkan akses root.
-
+* **Penerapan** https://youtu.be/IwVXcVr1VXY?si=JJGT0HNFidr2stQI
 
 **Catatan:**
 
