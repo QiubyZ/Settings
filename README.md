@@ -7,7 +7,6 @@ Cukup jalankan script ini dalam mode root dan minimize jendela terminal anda lal
 ![gambar](./Screenshot_2024-08-28-21-58-11-604_com.miui.securitycore.jpg)
 
 
-
 # CLI Settings Android
 
 CLI ```cmd settings``` | ```settings``` adalah CLI untuk mengkonfigurasi pengaturan di dalam Android.
@@ -17,7 +16,7 @@ CLI ```cmd settings``` | ```settings``` adalah CLI untuk mengkonfigurasi pengatu
 - **Otomatisasi Pengaturan:** Anda dapat membuat script otomatis untuk menyetel pengaturan yang sudah diketahui keys dan nilainya, kemudian menerapkannya ke ROM lain (ROM baru).
 - **Backup dan Restore:** Anda dapat membackup konfigurasi file yang telah diatur dan menerapkannya ke ROM lain.
 
-### Cara Menggunakan
+## Cara Menggunakan
 
 CLI "settings" atau "cmd settings" terbagi menjadi 3 kategori:
 
@@ -55,56 +54,56 @@ settings put system double_click_power_key turn_on_torch
 ```
 Untuk mengaktifkan fitur Flashlight dengan menekan tombol power 2x.
 
-### Contoh Pengaturan
+## Contoh Pengaturan
 
-Berikut ini adalah beberapa contoh pengaturan dalam kategori `system` (Settings > Pintasan Gerakan):
+Berikut ini adalah beberapa contoh kategori, value dan nilai pengaturan:
 
-1. # Mengaktifkan opsi developer
+1. #### Mengaktifkan opsi developer
    global development_settings_enabled 1
 
-2. # Mengatur skala animasi
+2. #### Mengatur skala animasi
    global animator_duration_scale 0.5
 
-3. # Memaksakan aktivitas agar dapat diubah ukurannya
+3. #### Memaksakan aktivitas agar dapat diubah ukurannya
    global force_resizable_activities 1
 
-4. # Mengaktifkan dukungan Freeform
+4. #### Mengaktifkan dukungan Freeform
    global enable_freeform_support 1
 
-5. # Menutup aplikasi dengan menekan tombol kembali lama
+5. #### Menutup aplikasi dengan menekan tombol kembali lama
    system long_press_back_key close_app
 
-6. # Mengaktifkan senter dengan mengklik dua kali tombol power
+6. #### Mengaktifkan senter dengan mengklik dua kali tombol power
    system double_click_power_key turn_on_torch
 
-7. # Mengaktifkan senter dengan menekan tombol home lama
+7. #### Mengaktifkan senter dengan menekan tombol home lama
    system long_press_home_key turn_on_torch
 
-8. # Mengatur ukuran grid layar home
+8. #### Mengatur ukuran grid layar home
    system miui_home_screen_cells_size 5x9
 
-9. # Menonaktifkan tindakan geser ke atas pada launcher
+9. #### Menonaktifkan tindakan geser ke atas pada launcher
    system system com.miui.home.preferences.launcher_slideup_gesture no_action
 
-10. # Mengatur tindakan geser ke bawah pada launcher
+10. #### Mengatur tindakan geser ke bawah pada launcher
    system com.miui.home.preferences.launcher_pulldown_gesture=notification_bar
 
-11. # Menampilkan informasi memori pada layar Recent Apps
+11. #### Menampilkan informasi memori pada layar Recent Apps
    system miui_recents_show_mem_info 1
 
-12. # Menampilkan kecepatan jaringan pada status bar
+12. #### Menampilkan kecepatan jaringan pada status bar
    system status_bar_show_network_speed 1
 
-13. # Mengaktifkan asisten pribadi
+13. #### Mengaktifkan asisten pribadi
    system open_personal_assistant 1
 
-14. # Mengatur mode navigasi 
+14. #### Mengatur mode navigasi 
    secure navigation_mode 0
 
-15. # Mengaktifkan balasan cepat 
+15. #### Mengaktifkan balasan cepat 
    secure quick_reply_enable 1
 
-16. # Memaksakan penggunaan gesture navigation bar
+16. #### Memaksakan penggunaan gesture navigation bar
    global force_fsg_nav_bar 0 
 
 ### Lokasi File Konfigurasi
