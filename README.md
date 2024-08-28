@@ -1,5 +1,5 @@
 ## SetListenner
-Adalah adalah script untuk melihat perubahan nilai pada package com.android.setting, tujuan script ini dibuat untuk melacak keys dan value yang digunakan untuk pengesetan nilai pada CLI "cmd settings" | "settings" pada Android.
+Adalah script untuk melihat perubahan nilai pada package com.android.setting, tujuan script ini dibuat untuk melacak keys dan value yang digunakan untuk pengesetan nilai pada CLI "cmd settings" | "settings" pada Android.
 
 ## Penggunaan
 Cukup jalankan script ini dalam mode root dan minimize jendela terminal anda lalu pergi ke settingan android, lalu ubah settinggan apapun didalam android anda sambil melihat perubahan pada result jendal terminal.
