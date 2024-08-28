@@ -4,6 +4,9 @@ Adalah adalah script untuk melihat perubahan nilai pada package com.android.sett
 ## Penggunaan
 Cukup jalankan script ini dalam mode root dan minimize jendela terminal anda lalu pergi ke settingan android, lalu ubah settinggan apapun didalam android anda sambil melihat perubahan pada result jendal terminal.
 
+![gambar](./Screenshot_2024-08-28-21-58-11-604_com.miui.securitycore.jpg)
+
+
 
 ## CLI Settings Android
 
